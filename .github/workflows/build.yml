@@ -12,9 +12,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Extract project ZIP
-        run: unzip -o MeshwaryAndroid_CloudBuild.zip
-
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
